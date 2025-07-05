@@ -13,7 +13,7 @@ os_version() {
 }
 
 pkg_update() {
-  apk update -q >$__OUTPUT
+  apk update >$__OUTPUT
 }
 
 pkg_upgrade() {
