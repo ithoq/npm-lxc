@@ -17,7 +17,7 @@ pkg_update() {
 }
 
 pkg_upgrade() {
-  apk upgrade -q >$__OUTPUT
+  apk upgrade>$__OUTPUT
 }
 
 pkg_add() {
